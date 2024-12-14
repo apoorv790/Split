@@ -1,0 +1,78 @@
+/* src/styles/TopBar.css */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* src/styles/HomePage.css */
+.homepage {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.homepage button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+/* src/styles/TemplatesPage.css */
+.templates-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.templates-page button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+/* src/styles/CustomSplitPage.css */
+.custom-split-page {
+    padding: 20px;
+}
+
+.custom-split-page label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.custom-split-page input,
+.custom-split-page select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.person-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.person-details input {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.custom-split-page button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
